@@ -15,3 +15,6 @@ After all vessel segment boxes have been drawn, click `Get Vessel Widths` to est
 Upon completion, this app will output 2 files:
 1. A .mat file containing all vessel boxes drawn, an `MxN` matrix containing the calculated vessel widths for the `M` vessel segments in all `N` vessel frames, and an `MxN` matrix containing the correlation coefficients of the fitted gaussian function corresponding to the calculated vessel widths
 2. A .svg file showing an image projection of the vessel channel with all vessel boxes overlayed in unique colors, and a plot of their corresponding vessel widths over time (i.e. frame #)
+
+###### Example result:
+![Example image of widefield surface vessel imaging (left) and plot of vessel diameters over time (right)](https://github.com/sn-lab/Vessel-Diameter-Tools/blob/main/support/VesselWidths_example.png)
