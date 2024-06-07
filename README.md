@@ -4,7 +4,7 @@ Matlab tools for measuring blood vessel diameter
 ### In this repository:
 
 #### getVesselWidths.mlapp: Matlab app for calculating vessel widths over time from multichannel .tif files
-To run this app, clone this repository and double click the app, or enter `getVesselWidths` in the Matlab command window. 
+To run this app, clone this repository and add the folder to Matlabs paths (Home>Set Path>Add with Subfolders>[select this folder]>Save>Close). Then, double-click the app to start, or enter `getVesselWidths` in the Matlab command window.
 
 After the app opens, click `Load Image File` to select a .tif file with blood vessels visible. When prompted, enter the number of color channels present in the .tif file, and the channel where blood vessels are most visible (i.e. the vessel channel). 
 
